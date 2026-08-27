@@ -24,7 +24,7 @@ csv_file = os.path.join("datasets", f"{Network_Name}_dataset.csv")
 G = load_graph(csv_file)
 G.remove_edges_from(nx.selfloop_edges(G))
 G = get_largest_connected_component(G)
-# Compute dynamic beta threshold
+ # Compute dynamic beta threshold
 BETA_THRESHOLD = compute_beta_threshold(G, MU)
 BETA = 2 * BETA_THRESHOLD  # Scaled beta
 
