@@ -1,4 +1,4 @@
-# subgraph-centrality-limited-visibility
+# Subgraph-centrality-with-limited-visibility
 Python implentation for the paper "Evaluating Classical Node Centralities on Networks with Limited Topological Visibility"
 # Required Python Libraries
 Numpy
